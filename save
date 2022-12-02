@@ -1,0 +1,13 @@
+--nav-background-color: #585563;
+    --nav-text-color: #FADFAC;
+    --text-color: #FADFAC;
+    --background: #73937E;
+    --hover: #5B2E48;
+    --active: #471323;
+
+--nav-background-color: #C6C1C1;
+    --nav-text-color: #050000;
+    --text-color: #ffffff;
+    --background: #2D2F36;
+    --hover: #C35656;
+    --active: #c23d3d;

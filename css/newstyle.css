@@ -523,9 +523,9 @@ nav {
 
 .login-box {
     flex-direction: column;
-    height: 50vh;
     width: 30vw;
 
+    padding: 20px 0;
     border-radius: 30px;
 
     box-shadow: var(--login-content-shadow) var(--login-content-shadow) calc(2 * var(--login-content-shadow)) var(--login-bottom-shadow),
@@ -535,7 +535,7 @@ nav {
 .login-input {
     flex-direction: column;
 
-    width: 26vw;
+    width: 85%;
 
     margin: 15px 0px;
 }
@@ -600,6 +600,10 @@ nav {
         --index-btn-font-size: 25px;
     }
 
+    .login-box{
+        width: 40vw;
+    }
+
     .nav-a {
         padding: calc(0.67 * var(--nav-font-size)) 30px;
     }
@@ -618,6 +622,10 @@ nav {
         --text-font-size: 25px;
 
         --index-btn-font-size: 25px;
+    }
+
+    .login-box{
+        width: 50vw;
     }
 
     .nav-a {
@@ -708,6 +716,10 @@ nav {
         width: 40px;
         height: 40px;
     }
+
+    .login-box{
+        width: 60vw;
+    }
 }
 
 @media (max-width: 870px) {
@@ -720,6 +732,10 @@ nav {
 
         --index-btn-font-size: 20px;
     }
+
+    .login-box{
+        width: 70vw;
+    }
 }
 
 @media (max-width: 768px) {
@@ -729,6 +745,10 @@ nav {
 
         --index-btn-font-size: 17.5px;
     }
+
+    .login-box{
+        width: 80vw;
+    }
 }
 
 @media (max-width: 420px) {
@@ -737,5 +757,9 @@ nav {
         --text-font-size: 18px;
 
         --index-btn-font-size: 13px;
+    }
+
+    .login-box{
+        width: 90vw;
     }
 }
