@@ -161,7 +161,7 @@ nav {
     overflow: hidden;
 
     position: absolute;
-    margin-left: 37px;
+    /* margin-left: 37px; */
     border-radius: 2vh;
 
     background-color: rgba(55, 35, 35, 0.5);
@@ -423,6 +423,7 @@ nav {
 .cont-main {
     margin: 5vh 0;
 }
+
 /* .cont-input{
         width: 100%;
 
@@ -566,21 +567,21 @@ nav {
         inset var(--login-input-shadow) var(--login-input-shadow) calc(2 * var(--login-input-shadow)) var(--login-bottom-shadow);
 }
 
-.login-btn{
+.login-btn {
     background-color: var(--hover);
 
     border-radius: 2vw;
     border: none;
     margin-top: 30px;
 
-    width: calc(4 * var(--text-font-size));
+    width: calc(7 * var(--text-font-size));
 }
 
-.login-btn:hover{
+.login-btn:hover {
     box-shadow: 0px 0px 20px 5px var(--index-btn-shadow-color-active);
 }
 
-.leftBox-cont{
+.leftBox-cont {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -600,7 +601,7 @@ nav {
         --index-btn-font-size: 25px;
     }
 
-    .login-box{
+    .login-box {
         width: 40vw;
     }
 
@@ -624,7 +625,7 @@ nav {
         --index-btn-font-size: 25px;
     }
 
-    .login-box{
+    .login-box {
         width: 50vw;
     }
 
@@ -717,7 +718,7 @@ nav {
         height: 40px;
     }
 
-    .login-box{
+    .login-box {
         width: 60vw;
     }
 }
@@ -733,7 +734,7 @@ nav {
         --index-btn-font-size: 20px;
     }
 
-    .login-box{
+    .login-box {
         width: 70vw;
     }
 }
@@ -746,7 +747,7 @@ nav {
         --index-btn-font-size: 17.5px;
     }
 
-    .login-box{
+    .login-box {
         width: 80vw;
     }
 }
@@ -759,7 +760,7 @@ nav {
         --index-btn-font-size: 13px;
     }
 
-    .login-box{
+    .login-box {
         width: 90vw;
     }
 }
